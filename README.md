@@ -1,7 +1,7 @@
 # Copy_Paste_Content (windows)
 Copy and paste content of file w/o opening the file. I faced issue while resolving product bugs, when qe gives us testdata file and we read the testdata and execute our junit. But as usual they always give data file in defferent names. Hence we needed to change the code/properties to point to new file. To solve this issue I came up with this tool, which will copy the content of a testdata file to existing file and we can execute our tests w/o any code modification.
 
-The project contains two zip files. One that holds the executable i.e. (https://github.com/abhinabagrr/Copy_Paste_Content/blob/master/cpc_1.0.zip)
+The project contains two zip files. One that holds the executable i.e. (https://github.com/abhinabagrr/Copy_Paste_Content/blob/master/cpc_1.0.zip?raw=true)
 
 And second one is the eclipse source (https://github.com/abhinabagrr/Copy_Paste_Content/blob/master/cpc_1.0_eclipse.zip)
 
