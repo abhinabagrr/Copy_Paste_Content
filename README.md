@@ -12,12 +12,12 @@ Now right click on another file say "Paste Content". The first file contents wou
 
 #Installation steps
   1. Download cpc_1.0.zip, extract to your local directory
-  2. Run installer.exe.
+  2. Run installer.bat.
   3. Window will ask your permission as it is going to update in registry, say YES.
   4. If you have any confusion over what we are adding to registry, you can run it in manual mode too.
 
 #Manual mode installation
-  1. run command installer.exe -m.
+  1. run command installer.bat -m.
   2. Once execution finishes, you can see two .reg file, cp.reg and pst.reg.
   3. Import these two files to registry and it is done.
 
