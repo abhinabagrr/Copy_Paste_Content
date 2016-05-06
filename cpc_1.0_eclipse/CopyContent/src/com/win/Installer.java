@@ -111,7 +111,7 @@ public class Installer {
 		try {
 			String localCmd = "powershell.exe -Command \"Start-Process \\\"" + curD + "\\" + CPX_BAT + "\\\" -Verb RunAs\"";
 			out = new PrintWriter(CALLCPX_BAT);
-			out.print("set PATH=%PATH%;%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0\\");
+			out.print("set PATH=%PATH%;%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0\\\n");
 			out.print(localCmd);
 
 		} catch (FileNotFoundException e) {
